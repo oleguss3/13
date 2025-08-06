@@ -14,8 +14,6 @@ public class Main {
         int months = years * 12;
         int monthlyPayment = service.calculate(amount, percent, months);
 
-        System.out.println("Сумма кредита на " + years + " год(а): " +
-                amount + ", Ежемесячный платёж: " + monthlyPayment +
-                ", Процентная ставка: " + percent + "%");
+        System.out.println("Сумма кредита на " + years + " год(а): " + amount + ", Ежемесячный платёж: " + monthlyPayment + ", Процентная ставка: " + percent + "%");
     }
 }
